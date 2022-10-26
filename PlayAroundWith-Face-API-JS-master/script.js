@@ -21,7 +21,6 @@ video.addEventListener('play', () => {
   document.body.append(canvas)
   const displaySize = { width: video.width, height: video.height }
   faceapi.matchDimensions(canvas, displaySize)
-
   setInterval(async () => {
     const detections = await faceapi.detectAllFaces(
       video, 
@@ -32,8 +31,18 @@ video.addEventListener('play', () => {
     faceapi.draw.drawDetections(canvas, resizedDetections)
     faceapi.draw.drawFaceLandmarks(canvas, resizedDetections)
     faceapi.draw.drawFaceExpressions(canvas, resizedDetections)
-
-    
-
   }, 100)
 })
+
+let button;
+
+function setup(){
+button = createButton('click me');
+button.position(700,700);
+button.mousePressed(takePhotos);
+}
+
+function takePhotos(){
+
+}
+

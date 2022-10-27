@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+h1{
+    font: size 30px;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+button{
+    display:block;
+    margin:auto;
+   text-align: center;
+}
+
+#votes{
+    margin-top:15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:burlywood;
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+}
+
+span{
+   color:tomato;
+}

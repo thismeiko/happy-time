@@ -1,26 +1,47 @@
 body{
-    background-color: antiquewhite;
+    background-color:#faf1e4;
     font-family:'Courier New', Courier, monospace;
     padding: 20px;
 }
 
 h1{
+    color:#3f475b;
     font: size 30px;
     margin-bottom:50px;
     text-align: center;
 }
 
+h2{
+    color:#3f475b;
+    font-size: 24px;
+    text-align: center;
+}
+
+p{
+    color:#3f475b;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tip{
+    color:#002a30;
+}
+
 button{
+    color:#0f3938;
     display:block;
+    border-radius: 23%;
     margin:auto;
    text-align: center;
+   
 }
 
 #votes{
     margin-top:15px;
     border-width: 2px;
     border-style: solid;
-    border-color:burlywood;
+    border-color:#002a30;
     text-align: center;
 }
 
@@ -29,5 +50,9 @@ button{
 }
 
 span{
-   color:tomato;
+   color:#521c0a;
+}
+
+#status{
+    color:#521c0a;
 }
